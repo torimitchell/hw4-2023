@@ -5,7 +5,9 @@ a.skip{
   -webkit-transition: top 1s ease-out;
   transition: left 1s ease-out;
   z-index: 1;
+
   /* Requirement 1 code here -- Do not remove this comment. */
+
   position: absolute;
   left: -400px;
   top: -200px;
@@ -131,6 +133,7 @@ img {
 
   /* Requirement 12 code here -- Do not remove this comment. */
   .container {
+    display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: 300px 300px 300px 300px;
   }
